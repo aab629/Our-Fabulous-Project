@@ -17,6 +17,6 @@ Once you've done that, you'll need to do a few things to get everything up and r
 - If you remember way back to the beginning of our Django training, you'll remember that the first thing we have to do once we create
 our database setting is sync the database. Go back to your project's base directory and type ```python manage.py syncdb``` to do that.
 
-- You'll also remember that Django projects are composed of apps, which you'll need to create before you get started. The command for doing that, again, is ```python manage.py startapp APP_NAME```, where APP_NAME is whatever you want to call your app. Go ahead and create an app to get your project started.
+- You'll also remember that Django projects are composed of apps, which you'll need to create before you get started. To do that, navigate into the second level of your project directory (the place with settings.py, urls.py, etc.) and type ```django-admin.py startapp APP_NAME```, where APP_NAME is whatever you want to call your app. That's all you should need to get started.
 
 The rest of your settings should work fine right out of the box. This approach should help alleviate some of the path and dependency issues some of you were having earlier in the semester. If you have any problems, let me know!
